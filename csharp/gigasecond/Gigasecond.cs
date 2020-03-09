@@ -4,6 +4,6 @@ public static class Gigasecond
 {
     public static DateTime Add(DateTime moment)
     {
-        return moment.
+        return moment.AddSeconds(1e9);
     }
 }
